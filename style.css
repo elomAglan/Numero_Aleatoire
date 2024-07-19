@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0d0024;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+section {
+    padding: 50px;
+    border-radius: 6px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    max-width: 800px; /* Ajout d'une largeur maximale pour éviter un étirement excessif */
+    overflow: hidden;
+}
+
+p {
+    margin-bottom: 25px;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    border-radius: 6px;
+    color: #fff;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #e91e63, #f44336);
+    padding: 10px;
+}
+
+.box__5_nb {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.box__5_nb input {
+    margin: 0 10px; /* Espace entre les inputs */
+}
+
+.box__1_nb {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement les inputs */
+    padding: 20px 0;
+}
+
+input {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to right, #e91e63, #f44336);
+    color: #fff;
+    text-align: center;
+    border: 0;
+    border-radius: 50%;
+    outline: 0;
+    font-size: 28px;
+}
+
+@media (max-width: 1000px) {
+    section {
+        width: 90%;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button {
+    width: 49%;
+    cursor: pointer;
+    padding: 15px 0;
+    border: 0;
+    border-radius: 6px;
+    background: linear-gradient(to right, #e91e63, #f44336);
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
